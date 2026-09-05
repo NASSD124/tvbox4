@@ -1,0 +1,15 @@
+{
+  "spider": "./kekedy_spider1.jar;md5;167777a133fdff288c3c831b822861a6",
+  "sites": [
+    {
+      "key": "csp_KeKeDY",
+      "name": "可可影视",
+      "type": 3,
+      "api": "csp_KeKeDY",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    }
+  ]
+}
