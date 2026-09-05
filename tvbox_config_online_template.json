@@ -1,0 +1,21 @@
+{
+  "sites": [
+    {
+      "key": "kekedy_jar",
+      "name": "可可影视",
+      "type": 3,
+      "api": "jar:https://nassd124.github.io/tvbox4/kekedy_spider.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": ""
+    }
+  ],
+  "rules": [],
+  "parses": [],
+  "lives": [],
+  "doh": [],
+  "ads": [],
+  "sites_2": [],
+  "wallpaper": ""
+}
