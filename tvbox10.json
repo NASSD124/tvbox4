@@ -1,0 +1,15 @@
+{
+  "spider": "https://nassd124.github.io/tvbox4/kekedy_spider.jar;md5;3268c28cfdf0e6756c9f017f813d8b01",
+  "sites": [
+    {
+      "key": "csp_KeKeDY",
+      "name": "可可影视",
+      "type": 3,
+      "api": "csp_KeKeDY",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    }
+  ]
+}
