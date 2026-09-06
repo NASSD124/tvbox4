@@ -1,0 +1,227 @@
+{
+    "spider": "https://nassd124.github.io/tvbox4/tvbox5.jar",
+    "sites": [
+        {
+            "key": "kekedy",
+            "name": "可可影视",
+            "type": 3,
+            "api": "com.github.catvod.spider.KeKeDY",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "",
+            "jar": ""
+        }
+    ],
+    "lives": [
+        {
+            "name": "直播",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/live.m3u",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        }
+    ],
+    "parses": [
+        {
+            "name": "Json并发",
+            "type": 2,
+            "url": "Parallel"
+        },
+        {
+            "name": "Web解析",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "header": {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": " Parwix",
+            "type": 0,
+            "url": "https://jx.parwix.com:4433/?url=",
+            "ext": {
+                "header": {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": " 线路1",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url=",
+            "ext": {
+                "header": {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": " 线路2",
+            "type": 0,
+            "url": "https://cdn.yangboy.com/?url=",
+            "ext": {
+                "header": {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                }
+            }
+        }
+    ],
+    "flags": [
+        "可可影视",
+        "youku",
+        "qq",
+        "iqiyi",
+        "qiyi",
+        "letv",
+        "sohu",
+        "tudou",
+        "pptv",
+        "mgtv",
+        "wasu",
+        "bilibili",
+        "renrenmi"
+    ],
+    "ijk": [
+        {
+            "group": "软解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "ffp-short",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "ffp-debug",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "group": "硬解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "ffp-short",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "ffp-debug",
+                    "value": "1"
+                },
+                {
+                    "category": 2,
+                    "name": "mediacodec",
+                    "value": "1"
+                },
+                {
+                    "category": 2,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "1"
+                },
+                {
+                    "category": 2,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "1"
+                },
+                {
+                    "category": 2,
+                    "name": "mediacodec-hevc",
+                    "value": "1"
+                }
+            ]
+        }
+    ],
+    "wallpaper": "https://apis.jxcxin.cn/api/bingimg/randUHD.php",
+    "warningText": "本配置仅供学习交流使用，请于24小时内删除",
+    "hideNotAdSite": false,
+    "showAll": true,
+    "showAllSite": false,
+    "doh": [
+        {
+            "name": "Cloudflare",
+            "url": "https://1.1.1.1/dns-query"
+        },
+        {
+            "name": "Google",
+            "url": "https://dns.google/dns-query"
+        },
+        {
+            "name": "AdGuard",
+            "url": "https://dns.adguard.com/dns-query"
+        }
+    ],
+    "rules": [
+        {
+            "host": "kekys.com",
+            "rule": [
+                "http://(.+)",
+                "https://(.+)"
+            ]
+        }
+    ]
+}
