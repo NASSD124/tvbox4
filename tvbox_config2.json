@@ -1,5 +1,5 @@
 {
-  "spider": "./kekedy_spider2.jar;md5;a87c7eda37721e990c5ea9ae81ef45d7",
+  "spider": "https://nassd124.github.io/tvbox4/kekedy_spider2.jar;md5;a87c7eda37721e990c5ea9ae81ef45d7",
   "sites": [
     {
       "key": "csp_KeKeDY",
